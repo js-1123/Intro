@@ -1,0 +1,351 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Dancing+Script&family=Shadows+Into+Light&display=swap');
+
+/* Reset CSS */
+* {box-sizing: border-box;}
+ul {list-style: none; padding: 0; margin: 0;}
+a {text-decoration: none;}
+h1,h2,h3,h4,h5,h6 {margin: 0;}
+p {margin: 0; padding: 0;}
+
+/* Default */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 15px;
+  margin: 0;
+  height: 100vh;
+  font-size: 15px;
+  background-color: #fff;
+}
+
+/* Velocity */
+.cd-section {
+ height: 100vh;
+}
+
+.cd-section > div {
+ height: 100%;
+}
+
+.inner {
+  height: 100%;
+}
+
+
+
+/* Section 1  */
+
+.inner1 {
+  height: 100%;
+  background: url(img/cover00.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.po1 {
+  height: 100%;
+  position: relative;
+}
+
+.po1 > div {
+  height: 100%;
+  float: left;
+}
+
+.intro1 {
+  width: 40%;
+  position: relative;
+}
+.intro1-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.35);
+  padding: 30px;
+}
+.intro1-text h2 {
+  font-size: 80px;
+  font-weight: bold;
+}
+.intro1-text p {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+.intro1-text a {
+  border: 1px solid #fff;
+  display: inline-block;
+  padding: 15px 50px;
+  color: #fff;
+  margin: 15px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+.intro1-text a:hover {
+  background-color: #000;
+  border-color: transparent;
+}
+
+.photo1 {
+  width: 60%;
+  position: relative;
+}
+.photo1-img {
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: url(img/port00.PNG) no-repeat center center;
+  background-size: cover;
+}
+
+/* Section 2 */
+
+.inner2 {
+  height: 100%;
+  background: url(img/cover01.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.po2 {
+  height: 100%;
+  position: relative;
+}
+
+.po2 > div {
+  height: 100%;
+  float: left;
+}
+
+/*
+.img1 {
+  background: url(img/cover00.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+*/
+
+.intro2 {
+  width: 40%;
+  position: relative;
+}
+.intro2-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.35);
+  padding: 30px;
+}
+.intro2-text h2 {
+  font-size: 80px;
+  font-weight: bold;
+}
+.intro2-text p {
+  font-size: 18px;
+  line-height: 1.8em;
+}
+.intro2-text a {
+  border: 1px solid #fff;
+  display: inline-block;
+  padding: 15px 50px;
+  color: #fff;
+  margin: 15px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+.intro2-text a:hover {
+  background-color: #000;
+  border-color: transparent;
+}
+
+.photo2 {
+  width: 60%;
+  position: relative;
+}
+.photo2-img {
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: url(img/pp24.png) no-repeat;
+  background-size: cover;
+}
+
+
+
+/* Section 3 */
+.inner3 {
+  height: 100%;
+  background: url(img/typewriter-801921_1920.jpg)no-repeat center center;
+  background-size: cover;
+}
+
+
+.po3 {
+  height: 100%;
+  position: relative;
+}
+
+.intro3 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.33);
+}
+
+
+.intro3:before{
+  content: '';
+  position: absolute;
+  background-color: #fff;
+  width: 80%;
+  height: 2px;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.intro3:after {
+  content: '';
+  position: absolute;
+  background-color: #fff;
+  width: 80%;
+  height: 2px;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.intro3 h2 {
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.intro3 p {
+  font-size: 17px;
+}
+
+.intro3 span {
+  font-size: 30px;
+  font-weight: 300;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  letter-spacing: 7px;
+}
+
+/* Header */
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.menu {
+  display: none;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.trigger {
+  display: none;
+}
+
+/* Section 4 */
+.inner4 {
+  height: 100vh;
+  background: url(img/cover03.jpg) no-repeat center center;
+  background-size: cover;
+}
+.intro4 {
+  position: relative;
+  height: 100%;
+}
+.intro4-heading {
+   font-family: 'Dancing Script', cursive;
+}
+.intro4-heading h2 {
+  text-align: center;
+  padding-top: 50px;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.intro4:before {
+  content: '';
+  position: absolute;
+  width: 250px;
+  height: 2px;
+  background-color: #000;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/*
+.intro4-text:before {
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 2px;
+  background-color: #fff;
+  top: 0
+  left: 50%;
+  transform: translateX(-50%);
+}
+*/
+.intro4-text {
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+.intro4-text h2 {
+  font-weight: bold;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.37);
+  padding: 30px;
+  font-size: 60px;
+}
+.intro4-text2 p {
+font-family: 'Dancing Script', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-weight: bold;
+}
+.intro4-text2 {
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  font-size: 45px;
+}
+
+
+
+
+/* Animaiton */
+
