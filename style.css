@@ -106,7 +106,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  background: url(img/port00.PNG) no-repeat center center;
+  background: url(img/port00.png) no-repeat center center;
   background-size: cover;
 }
 
@@ -185,7 +185,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  background: url(img/pp24.png) no-repeat;
+  background: url(img/pp24.PNG) no-repeat center center;
   background-size: cover;
 }
 
@@ -304,18 +304,7 @@ header {
   left: 50%;
   transform: translateX(-50%);
 }
-/*
-.intro4-text:before {
-  content: '';
-  position: absolute;
-  width: 80%;
-  height: 2px;
-  background-color: #fff;
-  top: 0
-  left: 50%;
-  transform: translateX(-50%);
-}
-*/
+
 .intro4-text {
   width: 80%;
   position: absolute;
