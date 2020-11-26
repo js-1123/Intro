@@ -92,11 +92,19 @@
 /* Section Home */
   .inner3 {
     height: 100vh;
+    
   }
   
   .intro3 {
     width: 100%;
     padding: 0;
+  }
+  .intro3 h2 {
+    font-size: 50px;
+  }
+  .intro3 p {
+   font-size: 15px; 
+    margin-top: 5px;
   }
   
 /* Section #1 */
@@ -176,7 +184,6 @@
   }
   .intro4-text {
     width: 100%;
-    position: absolute;
     top: 50%;
   }
   .intro4-text2 {
