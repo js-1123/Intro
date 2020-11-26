@@ -186,6 +186,7 @@
   .intro4 {
     height: 100%;
     position: relative;
+    overflow: hidden;
   }
   .intro4-text {
     width: 100%;
@@ -196,8 +197,10 @@
   }
   .intro4-text2 {
     width: 100%;
-    font-size: 23px;
     top: 80%;
     font-weight: 400;
+  }
+  .intro4-text2 p {
+    font-size: 20px;
   }
 }
