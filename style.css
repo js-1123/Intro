@@ -106,7 +106,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  background: url(img/port00.png) no-repeat center center;
+  background: url(img/port00.PNG) no-repeat center center;
   background-size: cover;
 }
 
@@ -128,14 +128,6 @@ body {
   float: left;
 }
 
-/*
-.img1 {
-  background: url(img/cover00.jpg) no-repeat center center;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-}
-*/
 
 .intro2 {
   width: 40%;
