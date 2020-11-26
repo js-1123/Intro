@@ -126,7 +126,9 @@
     width: 100%;
     transform: none;
   }
-  
+  .intro1-text p {
+    font-size: 14px;
+  }
   .intro1-text h2 {
     font-size: 40px;
     padding-bottom: 10px;
@@ -158,6 +160,9 @@
     width: 100%;
     transform: none;
   }
+  .intro2-text p {
+    font-size: 14px;
+  }
   .intro2-text h2 {
     font-size: 40px;
     padding-bottom: 10px;
@@ -186,10 +191,13 @@
     width: 100%;
     top: 50%;
   }
+  .intro4-text h2 {
+    font-size: 45px;
+  }
   .intro4-text2 {
     width: 100%;
-    font-size: 25px;
-    top: 83%;
-    font-weight: 500;
+    font-size: 23px;
+    top: 80%;
+    font-weight: 400;
   }
 }
