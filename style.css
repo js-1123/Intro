@@ -101,13 +101,14 @@ body {
 }
 .photo1-img {
   position: absolute;
-  width: 95%;
-  height: 95%;
+  width: 97%;
+  height: 97%;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  background: url(img/pp21.JPG) no-repeat center center;
+  background: url(img/0000.JPG) no-repeat center center;
   background-size: cover;
+  
 }
 
 /* Section 2 */
@@ -177,7 +178,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  background: url(img/pp24.PNG) no-repeat center center;
+  background: url(img/01.JPG) no-repeat center center;
   background-size: cover;
 }
 
@@ -325,6 +326,147 @@ font-weight: bold;
   font-size: 45px;
 }
 
+/* Section project */
+.inner5 {
+  height: 100%;
+}
+.project-inner {
+  height: 100%;
+  overflow: hidden;
+  padding: 15px;
+}
+.project-photo img {
+  transform: translateX(-150px);
+  height: 100%;
+}
+
+.tabs {
+  height: 100%;
+  width: 300%;
+  transition: 0.4s;
+}
+.tab {
+  height: 100%;
+  float: left;
+  width: 33.3333%;
+}
+.tab > div {
+  float: left;
+  height: 100%;
+}
+.project-info {
+  width: 25%;
+}
+
+.project-photo {
+  width: 70%;
+  overflow: hidden;
+  margin-left: 60px;
+}
+
+input[name=tabmenu] {
+  display: none;
+}
+
+.btn {
+  position: absolute;
+  bottom: 30px;
+  width: 25%;
+  text-align: center;
+}
+.btn label {
+  cursor: pointer;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #000;
+  margin: 7px;
+  position: relative;
+  
+}
+.btn label:before {
+  content: '';
+  display: inline-block;
+  border: 1px solid transparent;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  left: -5px;
+  top: -5px;
+  transition: 0.4s;
+}
+.btn label:hover:before {
+  border: 1px solid #aaa;
+}
+input[id=tab1]:checked ~ .btn label[for=tab1]:before,
+input[id=tab2]:checked ~ .btn label[for=tab2]:before,
+input[id=tab3]:checked ~ .btn label[for=tab3]:before {
+   border: 1px solid #aaa;
+}
+
+input[id=tab1]:checked ~ .tabs {
+  margin-left: 0;
+}
+
+input[id=tab2]:checked ~ .tabs {
+  margin-left: -100%;
+}
+
+input[id=tab3]:checked ~ .tabs {
+  margin-left: -200%;
+}
+
+/* Project Info */
+.project-info {
+  padding: 50px;
+  text-align: center;
+  position: relative;
+}
+.project-info-text {
+  border: 1px solid #000;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+.project-info h2 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.project-info p {
+  font-size: 17px;
+  line-height: 1.6em;
+  margin-top: 30px;
+}
+.detail {
+  margin: 30px;
+}
+.detail div {
+  display: inline-block;
+  text-align: center;
+  width: 32.355555%;
+  font-size: 36px;
+  font-weight: bold;
+  
+}
+.view-project {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #000;
+  text-align: center;
+  padding: 10px;
+  background-color: #3f3f3f;
+  color: #fff;
+  font-size: 16px;
+  transition: 0.4s;
+}
+.view-project:hover {
+  background-color: #000;
+}
 
 
 
